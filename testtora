@@ -1,0 +1,17 @@
+local CoreGui = game:GetService("CoreGui")
+local ToraScript = CoreGui:FindFirstChild("ToraScript")
+local CoreGui2 = game:GetService("CoreGui")
+local Destroy = CoreGui2.ToraScript:Destroy()
+local Teleport = loadstring(game:HttpGet("https://raw.githubusercontent.com/liebertsx/Tora-Library/main/src/librarynew"))()
+local Window = Teleport:CreateWindow("Escape Tsunami Brainrots")
+task.spawn(function()
+    task.wait()
+    task.wait()
+    task.wait()
+    task.wait()
+    task.wait()
+    task.wait()
+    task.wait()
+    -- [truncated repeated line]
+    -- [Error in spawn] TIMEOUT
+end)
