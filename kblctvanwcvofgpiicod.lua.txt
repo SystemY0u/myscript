@@ -1,0 +1,1750 @@
+local fenv = getfenv()
+local env = _G
+local s, r = pcall(function(D, W, T) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W) end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local s, r = pcall(function(D, W)
+    local s, r = pcall(function(D, W, T, Y, s) end)
+end)
+local s, r = pcall(function(D, W, T, Y, s) end)
+local Players = game:GetService('Players')
+local TweenService = game:GetService('TweenService')
+local UserInputService = game:GetService('UserInputService')
+local Lighting = game:GetService('Lighting')
+local RunService = game:GetService('RunService')
+local CoreGui = game:GetService('CoreGui')
+local screengui_861 = Instance.new("ScreenGui")
+
+screengui_861.Name = "DeltaPro_Lite"
+screengui_861.ResetOnSpawn = false
+screengui_861.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+screengui_861.IgnoreGuiInset = true
+local s, r = pcall(function(D, W, T, Y, s)
+    screengui_861.Parent = screengui_861
+end)
+screengui_861.Parent = screengui_861
+local textbutton_959 = Instance.new("TextButton")
+
+textbutton_959.Size = UDim2.new(0, 60, 0, 60)
+textbutton_959.Position = UDim2.new(0, 20, 0, 20)
+textbutton_959.BackgroundColor3 = Color3.fromRGB(10, 5, 15)
+textbutton_959.Text = "T"
+textbutton_959.TextColor3 = Color3.new(1, 1, 1)
+textbutton_959.TextSize = 35
+textbutton_959.Font = Font.FredokaOne
+textbutton_959.ZIndex = 1000
+textbutton_959.InputBegan:Connect(function(D, W, T)
+    D.Changed:Connect(function(D, W, T) end)
+end)
+UserInputService.InputChanged:Connect(function(D) end)
+local v68 = textbutton_959.IsA({}, "GuiObject")
+local uiscale_597 = Instance.new("UIScale")
+
+textbutton_959.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_959.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local uicorner_432 = Instance.new("UICorner")
+
+uicorner_432.CornerRadius = UDim.new(1, 0)
+local uistroke_810 = Instance.new("UIStroke")
+
+local frame_489 = Instance.new("Frame")
+
+frame_489.Size = UDim2.new(0, 520, 0, 340)
+frame_489.Position = UDim2.new(0.5, -260, 0.5, -170)
+frame_489.BackgroundColor3 = Color3.fromRGB(10, 5, 15)
+frame_489.Visible = false
+frame_489.Active = true
+frame_489.ClipsDescendants = true
+frame_489.InputBegan:Connect(function(D, W, T)
+    D.Changed:Connect(function(D, W, T) end)
+end)
+UserInputService.InputChanged:Connect(function(D) end)
+local uicorner_322 = Instance.new("UICorner")
+
+uicorner_322.CornerRadius = UDim.new(0, 15)
+local uistroke_729 = Instance.new("UIStroke")
+
+local frame_968 = Instance.new("Frame")
+
+frame_968.Size = UDim2.new(1, 0, 0, 50)
+frame_968.BackgroundTransparency = 1
+local textlabel_761 = Instance.new("TextLabel")
+
+textlabel_761.Size = UDim2.new(1, -60, 1, -15)
+textlabel_761.Position = UDim2.new(0, 20, 0, 0)
+textlabel_761.Text = "Violence District"
+textlabel_761.TextColor3 = Color3.new(1, 1, 1)
+textlabel_761.TextSize = 26
+textlabel_761.Font = "PatrickHand"
+textlabel_761.BackgroundTransparency = 1
+textlabel_761.TextXAlignment = "Left"
+local frame_987 = Instance.new("Frame")
+
+frame_987.Size = UDim2.new(1, -60, 0, 15)
+frame_987.Position = UDim2.new(0, 20, 0, 30)
+frame_987.BackgroundTransparency = 1
+frame_987.ClipsDescendants = true
+local textlabel_785 = Instance.new("TextLabel")
+
+textlabel_785.Size = UDim2.new(2, 0, 1, 0)
+textlabel_785.Position = UDim2.new(0, 0, 0, 0)
+textlabel_785.BackgroundTransparency = 1
+textlabel_785.Text = "[ VIP V32 ] | [ Auto Gen, ESP Optimized, Gate, Fly, Speed, Noclip ]"
+textlabel_785.TextColor3 = Color3.new(1, 1, 1)
+textlabel_785.TextSize = 14
+textlabel_785.Font = "FredokaOne"
+textlabel_785.TextXAlignment = "Left"
+local frame_549 = Instance.new("Frame")
+
+frame_549.Size = UDim2.new(1, 0, 0, 2)
+frame_549.Position = UDim2.new(0, 0, 1, 0)
+frame_549.BorderSizePixel = 0
+local textbutton_453 = Instance.new("TextButton")
+
+textbutton_453.Size = UDim2.new(0, 40, 0, 40)
+textbutton_453.Position = UDim2.new(1, -50, 0, 8)
+textbutton_453.Text = "X"
+textbutton_453.TextColor3 = Color3.fromRGB(255, 60, 60)
+textbutton_453.TextSize = 35
+textbutton_453.Font = "FredokaOne"
+textbutton_453.BackgroundTransparency = 1
+local v125 = textbutton_453.IsA({}, "GuiObject")
+local uiscale_684 = Instance.new("UIScale")
+
+textbutton_453.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_453.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local frame_983 = Instance.new("Frame")
+
+frame_983.Size = UDim2.new(0, 125, 1, -55)
+frame_983.Position = UDim2.new(0, 0, 0, 55)
+frame_983.BackgroundTransparency = 1
+local frame_688 = Instance.new("Frame")
+
+frame_688.Size = UDim2.new(0, 2, 1, 0)
+frame_688.Position = UDim2.new(1, 0, 0, 0)
+frame_688.BorderSizePixel = 0
+local textbutton_374 = Instance.new("TextButton")
+
+textbutton_374.Size = UDim2.new(1, -10, 0, 45)
+textbutton_374.Position = UDim2.new(0, 10, 0, 15)
+textbutton_374.Text = "teleport"
+textbutton_374.TextColor3 = Color3.fromRGB(200, 200, 200)
+textbutton_374.TextSize = 24
+textbutton_374.Font = "PatrickHand"
+textbutton_374.BackgroundTransparency = 1
+textbutton_374.TextXAlignment = "Left"
+local frame_918 = Instance.new("Frame")
+
+frame_918.Size = UDim2.new(0, 4, 0.7, 0)
+frame_918.Position = UDim2.new(0, -10, 0.15, 0)
+frame_918.Visible = false
+local v150 = textbutton_374.IsA({}, "GuiObject")
+local uiscale_205 = Instance.new("UIScale")
+
+textbutton_374.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_374.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local textbutton_135 = Instance.new("TextButton")
+
+textbutton_135.Size = UDim2.new(1, -10, 0, 45)
+textbutton_135.Position = UDim2.new(0, 10, 0, 65)
+textbutton_135.Text = "tools"
+textbutton_135.TextColor3 = Color3.fromRGB(200, 200, 200)
+textbutton_135.TextSize = 24
+textbutton_135.Font = "PatrickHand"
+textbutton_135.BackgroundTransparency = 1
+textbutton_135.TextXAlignment = "Left"
+local frame_286 = Instance.new("Frame")
+
+frame_286.Size = UDim2.new(0, 4, 0.7, 0)
+frame_286.Position = UDim2.new(0, -10, 0.15, 0)
+frame_286.Visible = false
+local v167 = textbutton_135.IsA({}, "GuiObject")
+local uiscale_159 = Instance.new("UIScale")
+
+textbutton_135.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_135.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local textbutton_122 = Instance.new("TextButton")
+
+textbutton_122.Size = UDim2.new(1, -10, 0, 45)
+textbutton_122.Position = UDim2.new(0, 10, 0, 115)
+textbutton_122.Text = "misc"
+textbutton_122.TextColor3 = Color3.fromRGB(200, 200, 200)
+textbutton_122.TextSize = 24
+textbutton_122.Font = "PatrickHand"
+textbutton_122.BackgroundTransparency = 1
+textbutton_122.TextXAlignment = "Left"
+local frame_55 = Instance.new("Frame")
+
+frame_55.Size = UDim2.new(0, 4, 0.7, 0)
+frame_55.Position = UDim2.new(0, -10, 0.15, 0)
+frame_55.Visible = false
+local v184 = textbutton_122.IsA({}, "GuiObject")
+local uiscale_810 = Instance.new("UIScale")
+
+textbutton_122.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_122.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local textbutton_716 = Instance.new("TextButton")
+
+textbutton_716.Size = UDim2.new(1, -10, 0, 45)
+textbutton_716.Position = UDim2.new(0, 10, 0, 165)
+textbutton_716.Text = "info"
+textbutton_716.TextColor3 = Color3.fromRGB(200, 200, 200)
+textbutton_716.TextSize = 24
+textbutton_716.Font = "PatrickHand"
+textbutton_716.BackgroundTransparency = 1
+textbutton_716.TextXAlignment = "Left"
+local frame_95 = Instance.new("Frame")
+
+frame_95.Size = UDim2.new(0, 4, 0.7, 0)
+frame_95.Position = UDim2.new(0, -10, 0.15, 0)
+frame_95.Visible = false
+local v201 = textbutton_716.IsA({}, "GuiObject")
+local uiscale_874 = Instance.new("UIScale")
+
+textbutton_716.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_716.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local frame_328 = Instance.new("Frame")
+
+frame_328.Size = UDim2.new(1, -135, 1, -65)
+frame_328.Position = UDim2.new(0, 135, 0, 60)
+frame_328.BackgroundTransparency = 1
+local scrollingframe_468 = Instance.new("ScrollingFrame")
+
+scrollingframe_468.Size = UDim2.new(1, 0, 1, 0)
+scrollingframe_468.BackgroundTransparency = 1
+scrollingframe_468.Visible = false
+scrollingframe_468.ScrollBarThickness = 2
+scrollingframe_468.AutomaticCanvasSize = Enum.AutomaticSize.Y
+scrollingframe_468.Active = true
+scrollingframe_468.ScrollingDirection = Enum.ScrollingDirection.Y
+local uilistlayout_735 = Instance.new("UIListLayout")
+
+uilistlayout_735.Padding = UDim.new(0, 15)
+uilistlayout_735.HorizontalAlignment = "Center"
+uilistlayout_735.SortOrder = "LayoutOrder"
+local uipadding_288 = Instance.new("UIPadding")
+
+uipadding_288.PaddingTop = UDim.new(0, 15)
+local uipadding_66 = Instance.new("UIPadding")
+
+uipadding_66.PaddingBottom = UDim.new(0, 15)
+local scrollingframe_168 = Instance.new("ScrollingFrame")
+
+scrollingframe_168.Size = UDim2.new(1, 0, 1, 0)
+scrollingframe_168.BackgroundTransparency = 1
+scrollingframe_168.Visible = false
+scrollingframe_168.ScrollBarThickness = 2
+scrollingframe_168.AutomaticCanvasSize = Enum.AutomaticSize.Y
+scrollingframe_168.Active = true
+scrollingframe_168.ScrollingDirection = Enum.ScrollingDirection.Y
+local uilistlayout_98 = Instance.new("UIListLayout")
+
+uilistlayout_98.Padding = UDim.new(0, 15)
+uilistlayout_98.HorizontalAlignment = "Center"
+uilistlayout_98.SortOrder = "LayoutOrder"
+local uipadding_554 = Instance.new("UIPadding")
+
+uipadding_554.PaddingTop = UDim.new(0, 15)
+local uipadding_489 = Instance.new("UIPadding")
+
+uipadding_489.PaddingBottom = UDim.new(0, 15)
+local scrollingframe_827 = Instance.new("ScrollingFrame")
+
+scrollingframe_827.Size = UDim2.new(1, 0, 1, 0)
+scrollingframe_827.BackgroundTransparency = 1
+scrollingframe_827.Visible = false
+scrollingframe_827.ScrollBarThickness = 2
+scrollingframe_827.AutomaticCanvasSize = Enum.AutomaticSize.Y
+scrollingframe_827.Active = true
+scrollingframe_827.ScrollingDirection = Enum.ScrollingDirection.Y
+local uilistlayout_523 = Instance.new("UIListLayout")
+
+uilistlayout_523.Padding = UDim.new(0, 15)
+uilistlayout_523.HorizontalAlignment = "Center"
+uilistlayout_523.SortOrder = "LayoutOrder"
+local uipadding_251 = Instance.new("UIPadding")
+
+uipadding_251.PaddingTop = UDim.new(0, 15)
+local uipadding_814 = Instance.new("UIPadding")
+
+uipadding_814.PaddingBottom = UDim.new(0, 15)
+local scrollingframe_308 = Instance.new("ScrollingFrame")
+
+scrollingframe_308.Size = UDim2.new(1, 0, 1, 0)
+scrollingframe_308.BackgroundTransparency = 1
+scrollingframe_308.Visible = false
+scrollingframe_308.ScrollBarThickness = 2
+scrollingframe_308.AutomaticCanvasSize = Enum.AutomaticSize.Y
+scrollingframe_308.Active = true
+scrollingframe_308.ScrollingDirection = Enum.ScrollingDirection.Y
+local uilistlayout_799 = Instance.new("UIListLayout")
+
+uilistlayout_799.Padding = UDim.new(0, 15)
+uilistlayout_799.HorizontalAlignment = "Center"
+uilistlayout_799.SortOrder = "LayoutOrder"
+local uipadding_268 = Instance.new("UIPadding")
+
+uipadding_268.PaddingTop = UDim.new(0, 15)
+local uipadding_992 = Instance.new("UIPadding")
+
+uipadding_992.PaddingBottom = UDim.new(0, 15)
+local textbutton_782 = Instance.new("TextButton")
+
+textbutton_782.LayoutOrder = 1
+textbutton_782.Size = UDim2.new(1, -20, 0, 45)
+textbutton_782.Text = "AUTO TELEPORT GEN: OFF"
+textbutton_782.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_782.TextColor3 = Color3.new(1, 1, 1)
+textbutton_782.TextSize = 24
+textbutton_782.Font = "PatrickHand"
+local uicorner_956 = Instance.new("UICorner")
+
+uicorner_956.CornerRadius = UDim.new(0, 12)
+local uistroke_366 = Instance.new("UIStroke")
+
+local v284 = textbutton_782.IsA({}, "GuiObject")
+local uiscale_701 = Instance.new("UIScale")
+
+textbutton_782.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_782.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_782.MouseButton1Click:Connect(function(D, W, T, Y, s)
+    textbutton_782.Text = "AUTO TELEPORT GEN: ON"
+    textbutton_782.TextColor3 = Color3.new(0, 1, 0)
+end)
+local frame_161 = Instance.new("Frame")
+
+frame_161.LayoutOrder = 2
+frame_161.Size = UDim2.new(1, 0, 0, 2)
+frame_161.BorderSizePixel = 0
+local frame_500 = Instance.new("Frame")
+
+frame_500.Size = UDim2.new(1, -25, 0, 45)
+frame_500.BackgroundTransparency = 1
+frame_500.LayoutOrder = 3
+local textbutton_987 = Instance.new("TextButton")
+
+textbutton_987.Size = UDim2.new(1, 0, 0, 45)
+textbutton_987.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_987.Text = "select generator"
+textbutton_987.TextColor3 = Color3.new(1, 1, 1)
+textbutton_987.TextSize = 24
+textbutton_987.Font = "PatrickHand"
+local uicorner_320 = Instance.new("UICorner")
+
+uicorner_320.CornerRadius = UDim.new(0, 10)
+local uistroke_621 = Instance.new("UIStroke")
+
+local v307 = textbutton_987.IsA({}, "GuiObject")
+local uiscale_43 = Instance.new("UIScale")
+
+textbutton_987.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_987.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local scrollingframe_130 = Instance.new("ScrollingFrame")
+
+scrollingframe_130.Size = UDim2.new(1, 0, 0, 0)
+scrollingframe_130.Position = UDim2.new(0, 0, 1, 5)
+scrollingframe_130.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+scrollingframe_130.Visible = false
+scrollingframe_130.ZIndex = 500
+scrollingframe_130.ScrollBarThickness = 4
+scrollingframe_130.Active = true
+scrollingframe_130.Selectable = true
+scrollingframe_130.ScrollingDirection = Enum.ScrollingDirection.Y
+scrollingframe_130.ClipsDescendants = true
+local uicorner_338 = Instance.new("UICorner")
+
+uicorner_338.CornerRadius = UDim.new(0, 10)
+local uilistlayout_137 = Instance.new("UIListLayout")
+
+textbutton_987.MouseButton1Click:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, 0, 0, 0)
+})
+    local v2 = v1:Play()
+    local v3 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, -25, 0, 45)
+})
+    local v4 = v3:Play()
+    task.delay(0.3, function(D, W, T, Y)
+    scrollingframe_130.Visible = false
+end)
+end)
+local textbutton_4 = Instance.new("TextButton")
+
+textbutton_4.LayoutOrder = 4
+textbutton_4.Size = UDim2.new(1, -20, 0, 45)
+textbutton_4.Text = "teleport to generator"
+textbutton_4.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_4.TextColor3 = Color3.new(1, 1, 1)
+textbutton_4.TextSize = 24
+textbutton_4.Font = "PatrickHand"
+local uicorner_665 = Instance.new("UICorner")
+
+uicorner_665.CornerRadius = UDim.new(0, 12)
+local uistroke_605 = Instance.new("UIStroke")
+
+local v337 = textbutton_4.IsA({}, "GuiObject")
+local uiscale_738 = Instance.new("UIScale")
+
+textbutton_4.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_4.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_4.MouseButton1Click:Connect(function(D, W) end)
+local frame_953 = Instance.new("Frame")
+
+frame_953.LayoutOrder = 5
+frame_953.Size = UDim2.new(1, 0, 0, 2)
+frame_953.BorderSizePixel = 0
+local frame_670 = Instance.new("Frame")
+
+frame_670.Size = UDim2.new(1, -25, 0, 45)
+frame_670.BackgroundTransparency = 1
+frame_670.LayoutOrder = 6
+local textbutton_905 = Instance.new("TextButton")
+
+textbutton_905.Size = UDim2.new(1, 0, 0, 45)
+textbutton_905.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_905.Text = "select player"
+textbutton_905.TextColor3 = Color3.new(1, 1, 1)
+textbutton_905.TextSize = 24
+textbutton_905.Font = "PatrickHand"
+local uicorner_52 = Instance.new("UICorner")
+
+uicorner_52.CornerRadius = UDim.new(0, 10)
+local uistroke_225 = Instance.new("UIStroke")
+
+local v360 = textbutton_905.IsA({}, "GuiObject")
+local uiscale_395 = Instance.new("UIScale")
+
+textbutton_905.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_905.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local scrollingframe_878 = Instance.new("ScrollingFrame")
+
+scrollingframe_878.Size = UDim2.new(1, 0, 0, 0)
+scrollingframe_878.Position = UDim2.new(0, 0, 1, 5)
+scrollingframe_878.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+scrollingframe_878.Visible = false
+scrollingframe_878.ZIndex = 500
+scrollingframe_878.ScrollBarThickness = 4
+scrollingframe_878.Active = true
+scrollingframe_878.Selectable = true
+scrollingframe_878.ScrollingDirection = Enum.ScrollingDirection.Y
+scrollingframe_878.ClipsDescendants = true
+local uicorner_747 = Instance.new("UICorner")
+
+uicorner_747.CornerRadius = UDim.new(0, 10)
+local uilistlayout_645 = Instance.new("UIListLayout")
+
+textbutton_905.MouseButton1Click:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, 0, 0, 0)
+})
+    local v2 = v1:Play()
+    local v3 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, -25, 0, 45)
+})
+    local v4 = v3:Play()
+    task.delay(0.3, function(D, W, T, Y)
+    scrollingframe_878.Visible = false
+end)
+end)
+local textbutton_692 = Instance.new("TextButton")
+
+textbutton_692.LayoutOrder = 7
+textbutton_692.Size = UDim2.new(1, -20, 0, 45)
+textbutton_692.Text = "teleport to player"
+textbutton_692.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_692.TextColor3 = Color3.new(1, 1, 1)
+textbutton_692.TextSize = 24
+textbutton_692.Font = "PatrickHand"
+local uicorner_56 = Instance.new("UICorner")
+
+uicorner_56.CornerRadius = UDim.new(0, 12)
+local uistroke_444 = Instance.new("UIStroke")
+
+local v390 = textbutton_692.IsA({}, "GuiObject")
+local uiscale_960 = Instance.new("UIScale")
+
+textbutton_692.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_692.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_692.MouseButton1Click:Connect(function(D, W, T, Y) end)
+local frame_48 = Instance.new("Frame")
+
+frame_48.LayoutOrder = 8
+frame_48.Size = UDim2.new(1, 0, 0, 2)
+frame_48.BorderSizePixel = 0
+local frame_227 = Instance.new("Frame")
+
+frame_227.Size = UDim2.new(1, -25, 0, 45)
+frame_227.BackgroundTransparency = 1
+frame_227.LayoutOrder = 9
+local textbutton_916 = Instance.new("TextButton")
+
+textbutton_916.Size = UDim2.new(1, 0, 0, 45)
+textbutton_916.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_916.Text = "select hook (gantungan)"
+textbutton_916.TextColor3 = Color3.new(1, 1, 1)
+textbutton_916.TextSize = 24
+textbutton_916.Font = "PatrickHand"
+local uicorner_413 = Instance.new("UICorner")
+
+uicorner_413.CornerRadius = UDim.new(0, 10)
+local uistroke_927 = Instance.new("UIStroke")
+
+local v413 = textbutton_916.IsA({}, "GuiObject")
+local uiscale_77 = Instance.new("UIScale")
+
+textbutton_916.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_916.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local scrollingframe_913 = Instance.new("ScrollingFrame")
+
+scrollingframe_913.Size = UDim2.new(1, 0, 0, 0)
+scrollingframe_913.Position = UDim2.new(0, 0, 1, 5)
+scrollingframe_913.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+scrollingframe_913.Visible = false
+scrollingframe_913.ZIndex = 500
+scrollingframe_913.ScrollBarThickness = 4
+scrollingframe_913.Active = true
+scrollingframe_913.Selectable = true
+scrollingframe_913.ScrollingDirection = Enum.ScrollingDirection.Y
+scrollingframe_913.ClipsDescendants = true
+local uicorner_914 = Instance.new("UICorner")
+
+uicorner_914.CornerRadius = UDim.new(0, 10)
+local uilistlayout_396 = Instance.new("UIListLayout")
+
+textbutton_916.MouseButton1Click:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, 0, 0, 0)
+})
+    local v2 = v1:Play()
+    local v3 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, -25, 0, 45)
+})
+    local v4 = v3:Play()
+    task.delay(0.3, function(D, W, T, Y)
+    scrollingframe_913.Visible = false
+end)
+end)
+local textbutton_535 = Instance.new("TextButton")
+
+textbutton_535.LayoutOrder = 10
+textbutton_535.Size = UDim2.new(1, -20, 0, 45)
+textbutton_535.Text = "teleport to hook"
+textbutton_535.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_535.TextColor3 = Color3.new(1, 1, 1)
+textbutton_535.TextSize = 24
+textbutton_535.Font = "PatrickHand"
+local uicorner_956 = Instance.new("UICorner")
+
+uicorner_956.CornerRadius = UDim.new(0, 12)
+local uistroke_525 = Instance.new("UIStroke")
+
+local v443 = textbutton_535.IsA({}, "GuiObject")
+local uiscale_872 = Instance.new("UIScale")
+
+textbutton_535.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_535.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_535.MouseButton1Click:Connect(function(D, W, T) end)
+local frame_94 = Instance.new("Frame")
+
+frame_94.LayoutOrder = 11
+frame_94.Size = UDim2.new(1, 0, 0, 2)
+frame_94.BorderSizePixel = 0
+local frame_529 = Instance.new("Frame")
+
+frame_529.Size = UDim2.new(1, -25, 0, 45)
+frame_529.BackgroundTransparency = 1
+frame_529.LayoutOrder = 12
+local textbutton_538 = Instance.new("TextButton")
+
+textbutton_538.Size = UDim2.new(1, 0, 0, 45)
+textbutton_538.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_538.Text = "select gate"
+textbutton_538.TextColor3 = Color3.new(1, 1, 1)
+textbutton_538.TextSize = 24
+textbutton_538.Font = "PatrickHand"
+local uicorner_699 = Instance.new("UICorner")
+
+uicorner_699.CornerRadius = UDim.new(0, 10)
+local uistroke_267 = Instance.new("UIStroke")
+
+local v466 = textbutton_538.IsA({}, "GuiObject")
+local uiscale_491 = Instance.new("UIScale")
+
+textbutton_538.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_538.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local scrollingframe_370 = Instance.new("ScrollingFrame")
+
+scrollingframe_370.Size = UDim2.new(1, 0, 0, 0)
+scrollingframe_370.Position = UDim2.new(0, 0, 1, 5)
+scrollingframe_370.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+scrollingframe_370.Visible = false
+scrollingframe_370.ZIndex = 500
+scrollingframe_370.ScrollBarThickness = 4
+scrollingframe_370.Active = true
+scrollingframe_370.Selectable = true
+scrollingframe_370.ScrollingDirection = Enum.ScrollingDirection.Y
+scrollingframe_370.ClipsDescendants = true
+local uicorner_173 = Instance.new("UICorner")
+
+uicorner_173.CornerRadius = UDim.new(0, 10)
+local uilistlayout_542 = Instance.new("UIListLayout")
+
+textbutton_538.MouseButton1Click:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, 0, 0, 0)
+})
+    local v2 = v1:Play()
+    local v3 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, -25, 0, 45)
+})
+    local v4 = v3:Play()
+    task.delay(0.3, function(D, W, T, Y)
+    scrollingframe_370.Visible = false
+end)
+end)
+local textbutton_594 = Instance.new("TextButton")
+
+textbutton_594.LayoutOrder = 13
+textbutton_594.Size = UDim2.new(1, -20, 0, 45)
+textbutton_594.Text = "teleport to gate"
+textbutton_594.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_594.TextColor3 = Color3.new(1, 1, 1)
+textbutton_594.TextSize = 24
+textbutton_594.Font = "PatrickHand"
+local uicorner_567 = Instance.new("UICorner")
+
+uicorner_567.CornerRadius = UDim.new(0, 12)
+local uistroke_420 = Instance.new("UIStroke")
+
+local v496 = textbutton_594.IsA({}, "GuiObject")
+local uiscale_341 = Instance.new("UIScale")
+
+textbutton_594.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_594.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_594.MouseButton1Click:Connect(function(D, W, T, Y, s) end)
+local textlabel_213 = Instance.new("TextLabel")
+
+textlabel_213.LayoutOrder = 1
+textlabel_213.Size = UDim2.new(1, 0, 0, 30)
+textlabel_213.Text = "TOOL FEATURES"
+textlabel_213.TextColor3 = Color3.new(1, 1, 1)
+textlabel_213.TextSize = 28
+textlabel_213.Font = "PatrickHand"
+textlabel_213.BackgroundTransparency = 1
+local frame_113 = Instance.new("Frame")
+
+frame_113.Size = UDim2.new(1, -25, 0, 45)
+frame_113.BackgroundTransparency = 1
+frame_113.LayoutOrder = 2
+local textbutton_397 = Instance.new("TextButton")
+
+textbutton_397.Size = UDim2.new(1, 0, 0, 45)
+textbutton_397.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_397.Text = "[type] crosshair"
+textbutton_397.TextColor3 = Color3.new(1, 1, 1)
+textbutton_397.TextSize = 24
+textbutton_397.Font = "PatrickHand"
+local uicorner_656 = Instance.new("UICorner")
+
+uicorner_656.CornerRadius = UDim.new(0, 10)
+local uistroke_73 = Instance.new("UIStroke")
+
+local v523 = textbutton_397.IsA({}, "GuiObject")
+local uiscale_444 = Instance.new("UIScale")
+
+textbutton_397.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_397.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local scrollingframe_882 = Instance.new("ScrollingFrame")
+
+scrollingframe_882.Size = UDim2.new(1, 0, 0, 0)
+scrollingframe_882.Position = UDim2.new(0, 0, 1, 5)
+scrollingframe_882.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+scrollingframe_882.Visible = false
+scrollingframe_882.ZIndex = 500
+scrollingframe_882.ScrollBarThickness = 4
+scrollingframe_882.Active = true
+scrollingframe_882.Selectable = true
+scrollingframe_882.ScrollingDirection = Enum.ScrollingDirection.Y
+scrollingframe_882.ClipsDescendants = true
+local uicorner_989 = Instance.new("UICorner")
+
+uicorner_989.CornerRadius = UDim.new(0, 10)
+local uilistlayout_857 = Instance.new("UIListLayout")
+
+textbutton_397.MouseButton1Click:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, 0, 0, 0)
+})
+    local v2 = v1:Play()
+    local v3 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, -25, 0, 45)
+})
+    local v4 = v3:Play()
+    task.delay(0.3, function(D, W, T, Y)
+    scrollingframe_882.Visible = false
+end)
+end)
+local frame_810 = Instance.new("Frame")
+
+frame_810.Size = UDim2.new(1, -20, 0, 65)
+frame_810.BackgroundTransparency = 1
+frame_810.LayoutOrder = 3
+local textlabel_66 = Instance.new("TextLabel")
+
+textlabel_66.Size = UDim2.new(1, -50, 0, 25)
+textlabel_66.Position = UDim2.new(0, 0, 0, 0)
+textlabel_66.Text = "CROSSHAIR SIZE"
+textlabel_66.TextColor3 = Color3.new(1, 1, 1)
+textlabel_66.TextSize = 24
+textlabel_66.Font = "PatrickHand"
+textlabel_66.BackgroundTransparency = 1
+textlabel_66.TextXAlignment = Enum.TextXAlignment.Left
+local textlabel_770 = Instance.new("TextLabel")
+
+textlabel_770.Size = UDim2.new(0, 50, 0, 25)
+textlabel_770.Position = UDim2.new(1, -50, 0, 0)
+textlabel_770.Text = "6"
+textlabel_770.TextColor3 = Color3.new(1, 1, 1)
+textlabel_770.TextSize = 24
+textlabel_770.Font = "PatrickHand"
+textlabel_770.BackgroundTransparency = 1
+textlabel_770.TextXAlignment = Enum.TextXAlignment.Right
+local textbutton_725 = Instance.new("TextButton")
+
+textbutton_725.Size = UDim2.new(1, 0, 0, 15)
+textbutton_725.Position = UDim2.new(0, 0, 0, 35)
+textbutton_725.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_725.Text = ""
+textbutton_725.AutoButtonColor = false
+local uicorner_462 = Instance.new("UICorner")
+
+uicorner_462.CornerRadius = UDim.new(1, 0)
+local v572 = textbutton_725.IsA({}, "GuiObject")
+local uiscale_305 = Instance.new("UIScale")
+
+textbutton_725.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_725.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local frame_682 = Instance.new("Frame")
+
+frame_682.Size = UDim2.new(0.14285714285714, 0, 1, 0)
+local uicorner_986 = Instance.new("UICorner")
+
+uicorner_986.CornerRadius = UDim.new(1, 0)
+textbutton_725.InputBegan:Connect(function(D, W, T, Y)
+    local calc_1 = (D.Position.X - textbutton_725.AbsolutePosition.X)
+    local calc_2 = (calc_1 / textbutton_725.AbsoluteSize.X)
+end)
+UserInputService.InputEnded:Connect(function(D, W, T, Y, s) end)
+UserInputService.InputChanged:Connect(function(D) end)
+local frame_177 = Instance.new("Frame")
+
+frame_177.Size = UDim2.new(1, -25, 0, 45)
+frame_177.BackgroundTransparency = 1
+frame_177.LayoutOrder = 4
+local textbutton_775 = Instance.new("TextButton")
+
+textbutton_775.Size = UDim2.new(1, 0, 0, 45)
+textbutton_775.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_775.Text = "[color] crosshair"
+textbutton_775.TextColor3 = Color3.new(1, 1, 1)
+textbutton_775.TextSize = 24
+textbutton_775.Font = "PatrickHand"
+local uicorner_516 = Instance.new("UICorner")
+
+uicorner_516.CornerRadius = UDim.new(0, 10)
+local uistroke_714 = Instance.new("UIStroke")
+
+local v597 = textbutton_775.IsA({}, "GuiObject")
+local uiscale_475 = Instance.new("UIScale")
+
+textbutton_775.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_775.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local scrollingframe_782 = Instance.new("ScrollingFrame")
+
+scrollingframe_782.Size = UDim2.new(1, 0, 0, 0)
+scrollingframe_782.Position = UDim2.new(0, 0, 1, 5)
+scrollingframe_782.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+scrollingframe_782.Visible = false
+scrollingframe_782.ZIndex = 500
+scrollingframe_782.ScrollBarThickness = 4
+scrollingframe_782.Active = true
+scrollingframe_782.Selectable = true
+scrollingframe_782.ScrollingDirection = Enum.ScrollingDirection.Y
+scrollingframe_782.ClipsDescendants = true
+local uicorner_206 = Instance.new("UICorner")
+
+uicorner_206.CornerRadius = UDim.new(0, 10)
+local uilistlayout_844 = Instance.new("UIListLayout")
+
+textbutton_775.MouseButton1Click:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, 0, 0, 0)
+})
+    local v2 = v1:Play()
+    local v3 = TweenService:Create(TweenService, {}, TweenInfo.new(0.3), {
+    Size = UDim2.new(1, -25, 0, 45)
+})
+    local v4 = v3:Play()
+    task.delay(0.3, function(D, W, T, Y)
+    scrollingframe_782.Visible = false
+end)
+end)
+local textbutton_955 = Instance.new("TextButton")
+
+textbutton_955.LayoutOrder = 5
+textbutton_955.Size = UDim2.new(1, -20, 0, 45)
+textbutton_955.Text = "crosshair: off"
+textbutton_955.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_955.TextColor3 = Color3.new(1, 1, 1)
+textbutton_955.TextSize = 24
+textbutton_955.Font = "PatrickHand"
+local uicorner_747 = Instance.new("UICorner")
+
+uicorner_747.CornerRadius = UDim.new(0, 12)
+local uistroke_438 = Instance.new("UIStroke")
+
+local v627 = textbutton_955.IsA({}, "GuiObject")
+local uiscale_523 = Instance.new("UIScale")
+
+textbutton_955.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_955.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_955.MouseButton1Click:Connect(function(D)
+    textbutton_955.Text = "crosshair: on"
+    textbutton_955.TextColor3 = Color3.new(0, 1, 0)
+    local frame_168 = Instance.new("Frame")
+
+    frame_168.Name = "CustomCrosshair"
+    frame_168.AnchorPoint = Vector2.new(0.5, 0.5)
+    frame_168.Position = UDim2.new(0.5, 0, 0.5, 0)
+    frame_168.Size = UDim2.new(0, 0, 0, 0)
+    frame_168.BackgroundTransparency = 1
+    local frame_779 = Instance.new("Frame")
+
+    frame_779.AnchorPoint = Vector2.new(0.5, 0.5)
+    frame_779.Size = UDim2.new(0, 6, 0, 6)
+    frame_779.Position = UDim2.new(0.5, 0, 0.5, 0)
+    frame_779.BackgroundColor3 = Color3.new(0, 1, 0)
+    local uicorner_735 = Instance.new("UICorner")
+
+    uicorner_735.CornerRadius = UDim.new(1, 0)
+end)
+local frame_281 = Instance.new("Frame")
+
+frame_281.Size = UDim2.new(1, -20, 0, 65)
+frame_281.BackgroundTransparency = 1
+frame_281.LayoutOrder = 1
+local textlabel_176 = Instance.new("TextLabel")
+
+textlabel_176.Size = UDim2.new(1, -50, 0, 25)
+textlabel_176.Position = UDim2.new(0, 0, 0, 0)
+textlabel_176.Text = "BRIGHTNESS"
+textlabel_176.TextColor3 = Color3.new(1, 1, 1)
+textlabel_176.TextSize = 24
+textlabel_176.Font = "PatrickHand"
+textlabel_176.BackgroundTransparency = 1
+textlabel_176.TextXAlignment = Enum.TextXAlignment.Left
+local textlabel_392 = Instance.new("TextLabel")
+
+textlabel_392.Size = UDim2.new(0, 50, 0, 25)
+textlabel_392.Position = UDim2.new(1, -50, 0, 0)
+textlabel_392.Text = "1"
+textlabel_392.TextColor3 = Color3.new(1, 1, 1)
+textlabel_392.TextSize = 24
+textlabel_392.Font = "PatrickHand"
+textlabel_392.BackgroundTransparency = 1
+textlabel_392.TextXAlignment = Enum.TextXAlignment.Right
+local textbutton_354 = Instance.new("TextButton")
+
+textbutton_354.Size = UDim2.new(1, 0, 0, 15)
+textbutton_354.Position = UDim2.new(0, 0, 0, 35)
+textbutton_354.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_354.Text = ""
+textbutton_354.AutoButtonColor = false
+local uicorner_619 = Instance.new("UICorner")
+
+uicorner_619.CornerRadius = UDim.new(1, 0)
+local v662 = textbutton_354.IsA({}, "GuiObject")
+local uiscale_275 = Instance.new("UIScale")
+
+textbutton_354.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_354.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local frame_343 = Instance.new("Frame")
+
+frame_343.Size = UDim2.new(0.0, 0, 1, 0)
+local uicorner_476 = Instance.new("UICorner")
+
+uicorner_476.CornerRadius = UDim.new(1, 0)
+textbutton_354.InputBegan:Connect(function(D, W, T, Y)
+    local calc_1 = (D.Position.X - textbutton_354.AbsolutePosition.X)
+    local calc_2 = (calc_1 / textbutton_354.AbsoluteSize.X)
+end)
+UserInputService.InputEnded:Connect(function(D, W, T, Y, s) end)
+UserInputService.InputChanged:Connect(function(D) end)
+local textbutton_85 = Instance.new("TextButton")
+
+textbutton_85.LayoutOrder = 2
+textbutton_85.Size = UDim2.new(1, -20, 0, 45)
+textbutton_85.Text = "reset brightness"
+textbutton_85.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_85.TextColor3 = Color3.new(1, 1, 1)
+textbutton_85.TextSize = 24
+textbutton_85.Font = "PatrickHand"
+local uicorner_409 = Instance.new("UICorner")
+
+uicorner_409.CornerRadius = UDim.new(0, 12)
+local uistroke_247 = Instance.new("UIStroke")
+
+local v684 = textbutton_85.IsA({}, "GuiObject")
+local uiscale_809 = Instance.new("UIScale")
+
+textbutton_85.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_85.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_85.MouseButton1Click:Connect(function(D, W, T, Y, s) end)
+local frame_870 = Instance.new("Frame")
+
+frame_870.LayoutOrder = 3
+frame_870.Size = UDim2.new(1, 0, 0, 2)
+frame_870.BorderSizePixel = 0
+local frame_552 = Instance.new("Frame")
+
+frame_552.Size = UDim2.new(1, -20, 0, 65)
+frame_552.BackgroundTransparency = 1
+frame_552.LayoutOrder = 4
+local textlabel_491 = Instance.new("TextLabel")
+
+textlabel_491.Size = UDim2.new(1, -50, 0, 25)
+textlabel_491.Position = UDim2.new(0, 0, 0, 0)
+textlabel_491.Text = "WALK SPEED"
+textlabel_491.TextColor3 = Color3.new(1, 1, 1)
+textlabel_491.TextSize = 24
+textlabel_491.Font = "PatrickHand"
+textlabel_491.BackgroundTransparency = 1
+textlabel_491.TextXAlignment = Enum.TextXAlignment.Left
+local textlabel_857 = Instance.new("TextLabel")
+
+textlabel_857.Size = UDim2.new(0, 50, 0, 25)
+textlabel_857.Position = UDim2.new(1, -50, 0, 0)
+textlabel_857.Text = "16"
+textlabel_857.TextColor3 = Color3.new(1, 1, 1)
+textlabel_857.TextSize = 24
+textlabel_857.Font = "PatrickHand"
+textlabel_857.BackgroundTransparency = 1
+textlabel_857.TextXAlignment = Enum.TextXAlignment.Right
+local textbutton_729 = Instance.new("TextButton")
+
+textbutton_729.Size = UDim2.new(1, 0, 0, 15)
+textbutton_729.Position = UDim2.new(0, 0, 0, 35)
+textbutton_729.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_729.Text = ""
+textbutton_729.AutoButtonColor = false
+local uicorner_267 = Instance.new("UICorner")
+
+uicorner_267.CornerRadius = UDim.new(1, 0)
+local v723 = textbutton_729.IsA({}, "GuiObject")
+local uiscale_373 = Instance.new("UIScale")
+
+textbutton_729.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_729.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local frame_443 = Instance.new("Frame")
+
+frame_443.Size = UDim2.new(0.0, 0, 1, 0)
+local uicorner_741 = Instance.new("UICorner")
+
+uicorner_741.CornerRadius = UDim.new(1, 0)
+textbutton_729.InputBegan:Connect(function(D, W, T, Y)
+    local calc_1 = (D.Position.X - textbutton_729.AbsolutePosition.X)
+    local calc_2 = (calc_1 / textbutton_729.AbsoluteSize.X)
+end)
+UserInputService.InputEnded:Connect(function(D, W, T, Y, s) end)
+UserInputService.InputChanged:Connect(function(D) end)
+local frame_156 = Instance.new("Frame")
+
+frame_156.LayoutOrder = 5
+frame_156.Size = UDim2.new(1, 0, 0, 2)
+frame_156.BorderSizePixel = 0
+local frame_649 = Instance.new("Frame")
+
+frame_649.Size = UDim2.new(1, -20, 0, 65)
+frame_649.BackgroundTransparency = 1
+frame_649.LayoutOrder = 6
+local textlabel_586 = Instance.new("TextLabel")
+
+textlabel_586.Size = UDim2.new(1, -50, 0, 25)
+textlabel_586.Position = UDim2.new(0, 0, 0, 0)
+textlabel_586.Text = "FLY SPEED"
+textlabel_586.TextColor3 = Color3.new(1, 1, 1)
+textlabel_586.TextSize = 24
+textlabel_586.Font = "PatrickHand"
+textlabel_586.BackgroundTransparency = 1
+textlabel_586.TextXAlignment = Enum.TextXAlignment.Left
+local textlabel_112 = Instance.new("TextLabel")
+
+textlabel_112.Size = UDim2.new(0, 50, 0, 25)
+textlabel_112.Position = UDim2.new(1, -50, 0, 0)
+textlabel_112.Text = "10"
+textlabel_112.TextColor3 = Color3.new(1, 1, 1)
+textlabel_112.TextSize = 24
+textlabel_112.Font = "PatrickHand"
+textlabel_112.BackgroundTransparency = 1
+textlabel_112.TextXAlignment = Enum.TextXAlignment.Right
+local textbutton_397 = Instance.new("TextButton")
+
+textbutton_397.Size = UDim2.new(1, 0, 0, 15)
+textbutton_397.Position = UDim2.new(0, 0, 0, 35)
+textbutton_397.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_397.Text = ""
+textbutton_397.AutoButtonColor = false
+local uicorner_24 = Instance.new("UICorner")
+
+uicorner_24.CornerRadius = UDim.new(1, 0)
+local v768 = textbutton_397.IsA({}, "GuiObject")
+local uiscale_634 = Instance.new("UIScale")
+
+textbutton_397.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_397.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+local frame_565 = Instance.new("Frame")
+
+frame_565.Size = UDim2.new(0.018036072144289, 0, 1, 0)
+local uicorner_802 = Instance.new("UICorner")
+
+uicorner_802.CornerRadius = UDim.new(1, 0)
+textbutton_397.InputBegan:Connect(function(D, W, T, Y)
+    local calc_1 = (D.Position.X - textbutton_397.AbsolutePosition.X)
+    local calc_2 = (calc_1 / textbutton_397.AbsoluteSize.X)
+end)
+UserInputService.InputEnded:Connect(function(D, W, T, Y, s) end)
+UserInputService.InputChanged:Connect(function(D) end)
+local textbutton_370 = Instance.new("TextButton")
+
+textbutton_370.LayoutOrder = 7
+textbutton_370.Size = UDim2.new(1, -20, 0, 45)
+textbutton_370.Text = "button fly: off"
+textbutton_370.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_370.TextColor3 = Color3.new(1, 1, 1)
+textbutton_370.TextSize = 24
+textbutton_370.Font = "PatrickHand"
+local uicorner_846 = Instance.new("UICorner")
+
+uicorner_846.CornerRadius = UDim.new(0, 12)
+local uistroke_978 = Instance.new("UIStroke")
+
+local v790 = textbutton_370.IsA({}, "GuiObject")
+local uiscale_761 = Instance.new("UIScale")
+
+textbutton_370.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_370.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_370.MouseButton1Click:Connect(function(D, W, T)
+    textbutton_370.Text = "button fly: on"
+    textbutton_370.TextColor3 = Color3.new(0, 1, 0)
+    local v3 = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+    local v4 = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+    local v5 = game.Players.LocalPlayer.Character:FindFirstChild("Animate")
+    game.Players.LocalPlayer.Character.Animate.Disabled = true
+    local v7 = v3.GetPlayingAnimationTracks(v3)
+    local v8 = v3:ChangeState(Enum.HumanoidStateType.Swimming)
+    local bodyvelocity_200 = Instance.new("BodyVelocity")
+
+    bodyvelocity_200.Name = "FlyStable"
+    bodyvelocity_200.MaxForce = Vector3.new(1000000, 1000000, 1000000)
+    bodyvelocity_200.Velocity = Vector3.new(0, 0, 0)
+    local bodygyro_597 = Instance.new("BodyGyro")
+
+    bodygyro_597.Name = "FlyGyro"
+    bodygyro_597.MaxTorque = Vector3.new(9000000000, 9000000000, 9000000000)
+    bodygyro_597.P = 90000
+    bodygyro_597.CFrame = game:GetService("Workspace").CurrentCamera.CFrame
+    RunService.Heartbeat:Connect(function(D, W, T)
+    bodygyro_597.CFrame = game:GetService("Workspace").CurrentCamera.CFrame
+    local _2 =  0 < v3.MoveDirection.Magnitude
+    local v3 = UserInputService:IsKeyDown(Enum.KeyCode.W)
+    local calc_4 = (Vector3.new(v3.MoveDirection.X, game:GetService("Workspace").CurrentCamera.CFrame.LookVector.Y, v3.MoveDirection.Z) * 1.0)
+    local v5 = game.Players.LocalPlayer.Character.TranslateBy(game.Players.LocalPlayer.Character, calc_4)
+end)
+end)
+local textbutton_36 = Instance.new("TextButton")
+
+textbutton_36.LayoutOrder = 8
+textbutton_36.Size = UDim2.new(1, -20, 0, 45)
+textbutton_36.Text = "noclip: off"
+textbutton_36.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_36.TextColor3 = Color3.new(1, 1, 1)
+textbutton_36.TextSize = 24
+textbutton_36.Font = "PatrickHand"
+local uicorner_543 = Instance.new("UICorner")
+
+uicorner_543.CornerRadius = UDim.new(0, 12)
+local uistroke_74 = Instance.new("UIStroke")
+
+local v806 = textbutton_36.IsA({}, "GuiObject")
+local uiscale_121 = Instance.new("UIScale")
+
+textbutton_36.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_36.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_36.MouseButton1Click:Connect(function(D, W, T, Y, s)
+    textbutton_36.Text = "noclip: on"
+    textbutton_36.TextColor3 = Color3.new(0, 1, 0)
+end)
+local frame_951 = Instance.new("Frame")
+
+frame_951.LayoutOrder = 9
+frame_951.Size = UDim2.new(1, 0, 0, 2)
+frame_951.BorderSizePixel = 0
+local textbutton_321 = Instance.new("TextButton")
+
+textbutton_321.LayoutOrder = 10
+textbutton_321.Size = UDim2.new(1, -20, 0, 45)
+textbutton_321.Text = "player esp: off"
+textbutton_321.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_321.TextColor3 = Color3.new(1, 1, 1)
+textbutton_321.TextSize = 24
+textbutton_321.Font = "PatrickHand"
+local uicorner_930 = Instance.new("UICorner")
+
+uicorner_930.CornerRadius = UDim.new(0, 12)
+local uistroke_822 = Instance.new("UIStroke")
+
+local v826 = textbutton_321.IsA({}, "GuiObject")
+local uiscale_872 = Instance.new("UIScale")
+
+textbutton_321.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_321.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_321.MouseButton1Click:Connect(function(arg1, arg2)
+    textbutton_321.Text = "player esp: on"
+    textbutton_321.TextColor3 = Color3.new(0, 1, 0)
+end)
+local textbutton_422 = Instance.new("TextButton")
+
+textbutton_422.LayoutOrder = 11
+textbutton_422.Size = UDim2.new(1, -20, 0, 45)
+textbutton_422.Text = "killer esp: off"
+textbutton_422.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_422.TextColor3 = Color3.new(1, 1, 1)
+textbutton_422.TextSize = 24
+textbutton_422.Font = "PatrickHand"
+local uicorner_679 = Instance.new("UICorner")
+
+uicorner_679.CornerRadius = UDim.new(0, 12)
+local uistroke_601 = Instance.new("UIStroke")
+
+local v842 = textbutton_422.IsA({}, "GuiObject")
+local uiscale_689 = Instance.new("UIScale")
+
+textbutton_422.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_422.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_422.MouseButton1Click:Connect(function(arg1, arg2)
+    textbutton_422.Text = "killer esp: on"
+    textbutton_422.TextColor3 = Color3.new(0, 1, 0)
+end)
+local textbutton_53 = Instance.new("TextButton")
+
+textbutton_53.LayoutOrder = 12
+textbutton_53.Size = UDim2.new(1, -20, 0, 45)
+textbutton_53.Text = "generator esp: off"
+textbutton_53.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_53.TextColor3 = Color3.new(1, 1, 1)
+textbutton_53.TextSize = 24
+textbutton_53.Font = "PatrickHand"
+local uicorner_45 = Instance.new("UICorner")
+
+uicorner_45.CornerRadius = UDim.new(0, 12)
+local uistroke_431 = Instance.new("UIStroke")
+
+local v858 = textbutton_53.IsA({}, "GuiObject")
+local uiscale_208 = Instance.new("UIScale")
+
+textbutton_53.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_53.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_53.MouseButton1Click:Connect(function(D, W, T, Y)
+    textbutton_53.Text = "generator esp: on"
+    textbutton_53.TextColor3 = Color3.new(0, 1, 0)
+end)
+local textbutton_693 = Instance.new("TextButton")
+
+textbutton_693.LayoutOrder = 13
+textbutton_693.Size = UDim2.new(1, -20, 0, 45)
+textbutton_693.Text = "pallet esp: off"
+textbutton_693.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_693.TextColor3 = Color3.new(1, 1, 1)
+textbutton_693.TextSize = 24
+textbutton_693.Font = "PatrickHand"
+local uicorner_17 = Instance.new("UICorner")
+
+uicorner_17.CornerRadius = UDim.new(0, 12)
+local uistroke_320 = Instance.new("UIStroke")
+
+local v874 = textbutton_693.IsA({}, "GuiObject")
+local uiscale_91 = Instance.new("UIScale")
+
+textbutton_693.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_693.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_693.MouseButton1Click:Connect(function(D, W, T)
+    textbutton_693.Text = "pallet esp: on"
+    textbutton_693.TextColor3 = Color3.new(0, 1, 0)
+end)
+local textbutton_40 = Instance.new("TextButton")
+
+textbutton_40.LayoutOrder = 14
+textbutton_40.Size = UDim2.new(1, -20, 0, 45)
+textbutton_40.Text = "hook esp: off"
+textbutton_40.BackgroundColor3 = Color3.fromRGB(25, 15, 30)
+textbutton_40.TextColor3 = Color3.new(1, 1, 1)
+textbutton_40.TextSize = 24
+textbutton_40.Font = "PatrickHand"
+local uicorner_953 = Instance.new("UICorner")
+
+uicorner_953.CornerRadius = UDim.new(0, 12)
+local uistroke_655 = Instance.new("UIStroke")
+
+local v890 = textbutton_40.IsA({}, "GuiObject")
+local uiscale_842 = Instance.new("UIScale")
+
+textbutton_40.InputBegan:Connect(function(D, W, T, Y)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+    Scale = 0.92
+})
+    local v2 = v1:Play()
+end)
+textbutton_40.InputEnded:Connect(function(D)
+    local v1 = TweenService:Create(TweenService, {}, TweenInfo.new(0.25, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out), {
+    Scale = 1
+})
+    local v2 = v1:Play()
+end)
+textbutton_40.MouseButton1Click:Connect(function(D, W, T, Y)
+    textbutton_40.Text = "hook esp: on"
+    textbutton_40.TextColor3 = Color3.new(0, 1, 0)
+end)
+local textlabel_324 = Instance.new("TextLabel")
+
+textlabel_324.LayoutOrder = 1
+textlabel_324.Size = UDim2.new(1, -20, 0, 40)
+textlabel_324.BackgroundTransparency = 1
+textlabel_324.Text = "Developer: Tio sc"
+textlabel_324.TextColor3 = Color3.new(1, 1, 1)
+textlabel_324.TextSize = 22
+textlabel_324.Font = "PatrickHand"
+local textlabel_501 = Instance.new("TextLabel")
+
+textlabel_501.LayoutOrder = 2
+textlabel_501.Size = UDim2.new(1, -20, 0, 40)
+textlabel_501.BackgroundTransparency = 1
+textlabel_501.Text = "Version: V1 Lite + Optimized ESP"
+textlabel_501.TextColor3 = Color3.new(1, 1, 1)
+textlabel_501.TextSize = 22
+textlabel_501.Font = "PatrickHand"
+local textlabel_820 = Instance.new("TextLabel")
+
+textlabel_820.LayoutOrder = 3
+textlabel_820.Size = UDim2.new(1, -20, 0, 40)
+textlabel_820.BackgroundTransparency = 1
+textlabel_820.Text = "Status: Stable"
+textlabel_820.TextColor3 = Color3.new(1, 1, 1)
+textlabel_820.TextSize = 22
+textlabel_820.Font = "PatrickHand"
+textbutton_374.MouseButton1Click:Connect(function(D, W, T)
+    scrollingframe_468.Visible = true
+    scrollingframe_168.Visible = false
+    scrollingframe_827.Visible = false
+    scrollingframe_308.Visible = false
+    frame_918.Visible = scrollingframe_468.Visible
+    frame_286.Visible = scrollingframe_168.Visible
+    frame_55.Visible = scrollingframe_827.Visible
+    frame_95.Visible = scrollingframe_308.Visible
+end)
+textbutton_135.MouseButton1Click:Connect(function(D)
+    scrollingframe_468.Visible = false
+    scrollingframe_168.Visible = true
+    scrollingframe_827.Visible = false
+    scrollingframe_308.Visible = false
+    frame_918.Visible = scrollingframe_468.Visible
+    frame_286.Visible = scrollingframe_168.Visible
+    frame_55.Visible = scrollingframe_827.Visible
+    frame_95.Visible = scrollingframe_308.Visible
+end)
+textbutton_122.MouseButton1Click:Connect(function(D, W, T, Y)
+    scrollingframe_468.Visible = false
+    scrollingframe_168.Visible = false
+    scrollingframe_827.Visible = true
+    scrollingframe_308.Visible = false
+    frame_918.Visible = scrollingframe_468.Visible
+    frame_286.Visible = scrollingframe_168.Visible
+    frame_55.Visible = scrollingframe_827.Visible
+    frame_95.Visible = scrollingframe_308.Visible
+end)
+textbutton_716.MouseButton1Click:Connect(function(D, W, T, Y)
+    scrollingframe_468.Visible = false
+    scrollingframe_168.Visible = false
+    scrollingframe_827.Visible = false
+    scrollingframe_308.Visible = true
+    frame_918.Visible = scrollingframe_468.Visible
+    frame_286.Visible = scrollingframe_168.Visible
+    frame_55.Visible = scrollingframe_827.Visible
+    frame_95.Visible = scrollingframe_308.Visible
+end)
+textbutton_959.MouseButton1Click:Connect(function(arg1, arg2)
+    frame_489.Visible = true
+    local v2 = TweenService:Create(TweenService, {}, TweenInfo.new(0.5, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {
+    Size = UDim2.new(0, 520, 0, 340)
+})
+    local v3 = v2:Play()
+end)
+textbutton_453.MouseButton1Click:Connect(function(D, W)
+    local v1 = screengui_861.Destroy({})
+end)
+scrollingframe_468.Visible = true
+scrollingframe_168.Visible = false
+scrollingframe_827.Visible = false
+scrollingframe_308.Visible = false
+frame_918.Visible = scrollingframe_468.Visible
+frame_286.Visible = scrollingframe_168.Visible
+frame_55.Visible = scrollingframe_827.Visible
+frame_95.Visible = scrollingframe_308.Visible
+task.spawn(function(D, W, T, Y)
+    task.wait(0.5)
+    local v2 = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+    local v3 = Players:GetPlayers()
+end)
+RunService.Heartbeat:Connect(function(D, W)
+    local s, r = pcall(function(D, W, T)
+    tick()
+    uistroke_810.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_729.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    textlabel_785.TextColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_549.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_688.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_918.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_286.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_55.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_95.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_366.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_161.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_621.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_605.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_953.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_225.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_444.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_48.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_927.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_525.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_94.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_267.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_420.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_73.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_682.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_714.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_438.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_343.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_247.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_870.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_443.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_156.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_565.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_978.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_74.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    frame_951.BackgroundColor3 = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_822.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_601.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_431.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_320.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    uistroke_655.Color = Color3.fromHSV(0.90807449817657, 1, 1)
+    local calc_42 = (textlabel_785.Position.X.Scale - 0.002)
+    local _43 =  calc_42 <= -1
+    textlabel_785.Position = UDim2.new(calc_42, 0, 0, 0)
+    local v45 = game.Players.LocalPlayer.Character:GetDescendants()
+    local v46 = Players:GetPlayers()
+end)
+    tick()
+    uistroke_810.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_729.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    textlabel_785.TextColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_549.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_688.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_918.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_286.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_55.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_95.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_366.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_161.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_621.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_605.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_953.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_225.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_444.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_48.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_927.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_525.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_94.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_267.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_420.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_73.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_682.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_714.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_438.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_343.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_247.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_870.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_443.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_156.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_565.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_978.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_74.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    frame_951.BackgroundColor3 = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_822.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_601.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_431.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_320.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    uistroke_655.Color = Color3.fromHSV(0.9081552028656, 1, 1)
+    local calc_43 = (textlabel_785.Position.X.Scale - 0.002)
+    local _44 =  calc_43 <= -1
+    textlabel_785.Position = UDim2.new(calc_43, 0, 0, 0)
+    local v46 = game.Players.LocalPlayer.Character:GetDescendants()
+    local v47 = Players:GetPlayers()
+end)
